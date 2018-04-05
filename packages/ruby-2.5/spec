@@ -1,0 +1,11 @@
+---
+name: ruby-2.5
+
+files:
+- ruby-2.5.1.tar.gz
+- rubygems-2.7.3.tgz
+- yaml-0.1.7.tar.gz
+- 2.5/compile.env
+- 2.5/runtime.env
+- config/config.guess
+- config/config.sub

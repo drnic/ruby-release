@@ -29,3 +29,15 @@ instance_groups:
   stemcell: default
   networks:
   - name: default
+
+- name: ruby-2.5-test
+  azs: [z1]
+  instances: 1
+  jobs:
+  - name: ruby-2.5-test
+    release: ruby
+    properties: {}
+  vm_type: default
+  stemcell: default
+  networks:
+  - name: default
